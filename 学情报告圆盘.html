@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>进度条展示</title>
+  <style>
+    html,body{
+      width:100%;
+      height:100%;
+      background:black;
+    }
+    *{
+      margin:0;
+      padding:0;
+    }
+    #canvas{
+      background:white;
+      border-radius:50%;
+      background:rgba(0,0,0,0);
+    }
+  </style>
+</head>
+<body>
+<canvas width="400" height="400" id="canvas"></canvas>
+<script>
+  /*
+  * id            canvas的id
+  * originx       圆心的x坐标
+  * originy       圆心的y坐标
+  * deg           黄色的外环的角度
+  * clickx        点击的时候，鼠标点击的x坐标
+  * clicky        点击的时候，鼠标点击的y坐标
+  * r             圆的半径  (大圆的)
+  * isClick       是否有点击事件
+  * outColor      外环的颜色
+  * innerColor    被包裹的中间的圆的颜色
+  * coverColor    要展示的进度条的颜色
+  * */
+  class Draw {
+    init(id,originx,originy,deg,r,outColor,innerColor,coverColor){
+      this.canvas = document.getElementById(id);
+      this.originx = originx;
+      this.originy = originy;
+      this.deg = deg;
+      this.r = r;
+      this.bottom = '';
+      this.outColor = outColor;
+      this.innerColor = innerColor;
+      this.coverColor = coverColor;
+      this.cxt = this.canvas.getContext('2d');
+      this.startDrawPosition = 180 - this.deg;
+      this.bottomStatus = 'coarse';//为true的时候是黄的在下边
+      this.start('','');
+    }
+    start(clickx,clicky){
+      this.clickPosition = {};
+      this.clickx = clickx;
+      this.clicky = clicky;
+      this.cxt.clearRect(0,0,this.canvas.width,this.canvas.height);
+      this.drawOne();
+      this.drawTwo(this.r - 20);
+      this.drawThree();
+      this.drawTwo(this.r - 22);
+      //coarse 粗一点儿的圈 thin 细的圈
+      if(this.clickPosition.one && !this.clickPosition.two && !this.clickPosition.three){
+        if(this.bottomStatus === 'thin'){
+          this.bottom = '';
+        }else {
+          this.bottomStatus = 'thin';
+          this.bottom = 'thin';
+        }
+      }
+      if(this.clickPosition.one && !this.clickPosition.two && this.clickPosition.three){
+        if(this.bottomStatus === 'coarse'){
+          this.bottom = '';
+        }else {
+          this.bottomStatus = 'coarse';
+          this.bottom = 'coarse';
+        }
+      }else if(this.clickPosition.one && this.clickPosition.two && this.clickPosition.three){
+        this.bottom = '';
+      }else if(this.clickPosition.one && this.clickPosition.two && !this.clickPosition.three){
+        this.bottom = '';
+      }else if(!this.clickPosition.one && !this.clickPosition.two && !this.clickPosition.three){
+        this.bottom = '';
+      }
+      this.rotate();
+    }
+    drawOne(){
+      this.cxt.save();
+      this.cxt.beginPath();
+      this.cxt.fillStyle = this.outColor;
+      this.cxt.arc(this.originx,this.originy,this.r,0,360 * Math.PI / 180);
+      this.cxt.fill();
+      if(this.cxt.isPointInPath(this.clickx,this.clicky)){
+        this.clickPosition.one = true;
+      }
+    }
+    drawTwo(r){
+      this.cxt.save();
+      this.cxt.beginPath();
+      this.cxt.fillStyle = this.innerColor;
+      this.cxt.arc(this.originx,this.originy,r,0,360 * Math.PI / 180);
+      this.cxt.fill();
+      if(this.cxt.isPointInPath(this.clickx,this.clicky)){
+        this.clickPosition.two = true;
+      }
+    }
+    drawThree(){
+      this.cxt.save();
+      this.cxt.beginPath();
+      this.cxt.moveTo(this.originx,this.originy);
+      this.cxt.fillStyle = this.coverColor;
+      this.cxt.arc(this.originx,this.originy,this.r + 2,this.startDrawPosition * Math.PI / 180,this.deg * Math.PI / 180,false);
+      this.cxt.fill();
+      if(this.cxt.isPointInPath(this.clickx,this.clicky)){
+        this.clickPosition.three = true;
+      }
+    }
+    rotate(){
+      document.onclick = (event) => {
+        this.start(event.offsetX,event.offsetY);
+      };
+      if(this.bottom === 'coarse'){
+        console.log('瘦的在上边');
+        this.angle = -180;
+        this.turn(this.angle,this.canvas);
+      }else if(this.bottom === 'thin'){
+        console.log('瘦的在下边');
+        this.angle = -0;
+        this.turn(this.angle,this.canvas);
+      }
+    }
+    turn(angle,canvas){
+      if(angle === -0){
+        let timer = setInterval(() => {
+          if(angle <= -170){
+            clearInterval(timer);
+          }
+          angle -= 10;
+          canvas.style.transform = `rotate(${angle}deg)`;
+        },30)
+      }else if(angle === -180){
+        let timer1 = setInterval(() => {
+          if(angle >= -10){
+            clearInterval(timer1);
+          }
+          angle += 10;
+          canvas.style.transform = `rotate(${angle}deg)`;
+        },30)
+      }
+    }
+    addNumber(number,color,fontSize,textAlign,textBaseline){
+      this.cxt.save();
+      this.cxt.beginPath();
+      this.cxt.fillStyle = color;
+      this.cxt.font = `${fontSize} 宋体`;
+      this.cxt.textAlign = textAlign;
+      this.cxt.textBaseline = textBaseline;
+      this.cxt.fillText(number,this.originx,this.originy + 10);
+    }
+    addText(text,color,fontSize,textAlign,textBaseline){
+      this.cxt.save();
+      this.cxt.beginPath();
+      this.cxt.fillStyle = color;
+      this.cxt.font = `${fontSize} 宋体`;
+      this.cxt.textAlign = textAlign;
+      this.cxt.textBaseline = textBaseline;
+      this.cxt.fillText(text,this.originx,this.originy + 10);
+    }
+  }
+
+
+    let draw = new Draw();
+    draw.init('canvas',200,200,120,100,'#92C94A','black','#FFFF00');
+    draw.addNumber('6','white','40px','center','bottom');
+    draw.addText('还有时间是把','white','16px','center','top');
+
+
+</script>
+</body>
+</html>
