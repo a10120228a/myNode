@@ -2,7 +2,7 @@ let array = [];
 for(let i = 0;i <= 2400001;i ++){
 	array.push(i);
 }
-let result = count2(2400001,array);
+let result = count2(120000,array);
 console.log(result);
 
 function count(name,array){  //二分查找
