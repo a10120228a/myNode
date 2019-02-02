@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		html,body{
+			width:100%;
+			height:100%;
+			overflow:hidden;
+			background:black;
+		}
+		.box{
+			width:500px;
+			height:500px;
+			background:white;
+			margin:100px auto;
+			position:relative;
+		}
+		.con{
+			z-index:4;
+			width:150px;
+			height:150px;
+			background:aqua;
+		}
+		.con>div{
+			animation-fill-mode:forwards!important;/*设置动画停在最后一帧*/
+			display:none;
+			z-index:1;
+			width:100px;
+			height:100px;
+			border-radius:50%;
+			background:skyblue;
+		}
+		.divauto{
+			position:absolute;
+			top:0;
+			left:0;
+			bottom:0;
+			right:0;
+			margin:auto;
+			border-radius:50%;
+		}
+		@keyframes one{
+			0%{
+				transform:translate3d(0,0,0);
+			}
+			100%{
+				transform:translate3d(0,-182px,0);
+			}
+		}
+		@keyframes two{
+			0%{
+				transform:translate3d(0,0,0);
+			}
+			100%{
+				transform:translate3d(-181px,-57px,0);
+			}
+		}
+		@keyframes three{
+			0%{
+				transform:translate3d(0,0,0);
+			}
+			100%{
+				transform:translate3d(181px,-57px,0);
+			}
+		}
+		@keyframes four{
+			0%{
+				transform:translate3d(0,0,0);
+			}
+			100%{
+				transform:translate3d(-117px,163px,0);
+			}
+		}
+		@keyframes five{
+			0%{
+				transform:translate3d(0,0,0);
+			}
+			100%{
+				transform:translate3d(117px,163px,0);
+			}
+		}
+
+		@keyframes oneAlter{
+			0%{
+				transform:translate3d(0,-182px,0);
+			}
+			100%{
+				transform:translate3d(0,0,0);
+			}
+		}
+		@keyframes twoAlter{
+			0%{
+				transform:translate3d(-181px,-57px,0);
+			}
+			100%{
+				transform:translate3d(0,0,0);
+			}
+		}
+		@keyframes threeAlter{
+			0%{
+				transform:translate3d(181px,-57px,0);
+			}
+			100%{
+				transform:translate3d(0,0,0);
+			}
+		}
+		@keyframes fourAlter{
+			0%{
+				transform:translate3d(-117px,163px,0);
+			}
+			100%{
+				transform:translate3d(0,0,0);
+			}
+		}
+		@keyframes fiveAlter{
+			0%{
+				transform:translate3d(117px,163px,0);
+			}
+			100%{
+				transform:translate3d(0,0,0);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="con divauto">
+			<div class="one divauto"></div>
+			<div class="two divauto"></div>
+			<div class="three divauto"></div>
+			<div class="four divauto"></div>
+			<div class="five divauto"></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		const box = document.getElementsByClassName('con')[0];
+		let status = true;
+		let classList = ['one','two','three','four','five'];
+		let alterClassList = ['oneAlter','twoAlter','threeAlter','fourAlter','fiveAlter'];
+		box.onclick = function() {
+			if(status){
+				for(let i = 0,len = this.children.length;i < len;i ++){
+					this.children[i].style.display = "block";
+					this.children[i].style.animation = classList[i] + " 1s 1 linear";
+				}
+			}else{
+				for(let i = 0,len = this.children.length;i < len;i ++){
+					this.children[i].style.animation = alterClassList[i] + " 1s 1 linear";
+					let timer = setTimeout(() => {
+						this.children[i].style.display = 'none';
+						clearTimeout(timer);
+					},1000);
+				}
+			}
+			status = !status;
+		}
+	</script>
+</body>
+</html>
