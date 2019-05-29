@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "mytest": "./test/new.js"
+  },
   "dependencies": {
     "mysql": "^2.16.0"
   }

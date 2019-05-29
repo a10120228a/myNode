@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+  </style>
+</head>
+<body>
+<canvas width="600" height="700" id="canvas"></canvas>
+<script>
+  const ctx = document.getElementById("canvas");
+  const gl = ctx.getContext('webgl');
+  gl.clearColor(255.0,0.0,0.0,1);
+  gl.clear(gl.COLOR_BUFFER_BIT);
+</script>
+</body>
+</html>

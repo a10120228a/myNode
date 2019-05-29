@@ -31,32 +31,32 @@ var path = require('path');
 // var filename = path.format({
 //   root:'/',
 //   dir:'/home/dir',
-//   base:'index.html',
+//   base:'index.js',
 //   ext:'.html',
 //   name:'index'
 // });
 // console.log(filename);
 
 /*该方法返回的是文件是否是绝对路径；*/
-// var boolean = path.isAbsolute('foo/index.html');
+// var boolean = path.isAbsolute('foo/index.js');
 // console.log(boolean);
 
 
 /*这个方法是使用平台特定的分隔符把全部给定的path链接到一起。生成规范化的路径；*/
-// console.log(path.join('/foo','bar','name','index.html'));
-// console.log(path.join(__dirname + '/../index.html'));
+// console.log(path.join('/foo','bar','name','index.js'));
+// console.log(path.join(__dirname + '/../index.js'));
 
 /*这个方法是将给定的path规范化，会解析出正确的路径；*/
-// console.log(path.normalize('/foo/bar/name/index.html/../..'));
+// console.log(path.normalize('/foo/bar/name/index.js/../..'));
 
 /*这个方法与path.format 相反，path.format是将对象路径解析成path,path.parse是将path字符串解析成路径对象；*/
-// console.log(path.parse('/foo/bar/name/index.html'));
+// console.log(path.parse('/foo/bar/name/index.js'));
 
 /*这个方法提供了针对posix的实现*/
 // console.log(path.posix());
 
 /*这个方法返回的是如何从第二个路径寻找到第一个路径*/
-// var path = path.relative('/foo/bar/name/index.html','/foo/bar/age/index.html');
+// var path = path.relative('/foo/bar/name/index.js','/foo/bar/age/index.js');
 // console.log(path);
 
 /*路径从左向右解析，知道构造成一个绝对路径，如果参数解析完都没有构建一个绝对路径，则会将当前工作目录加上，如果没有参数，会默认返回当前的工作路径，生成路径之后，会将末尾的斜杠删除，除非是解析为根目录，长度为0的path片段会被忽略*/
@@ -67,7 +67,7 @@ var path = require('path');
 // console.log(path.sep);
 
 /*只试用与在Windows平台上*/
-// var path = path.toNamespacedPath('/foo/bar/name/index.html');
+// var path = path.toNamespacedPath('/foo/bar/name/index.js');
 // console.log(path);
 
 /*提供了path针对Windows的实现*/

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    html,body{
+      width:100%;
+      height:100%;
+      overflow:hidden;
+      background:black;
+    }
+    canvas{
+      background:white;
+    }
+  </style>
+</head>
+<body>
+<script>
+  let canvas = document.createElement("canvas");
+  canvas.id = "canvas";
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  document.body.append(canvas);
+
+  let can = document.getElementById('canvas');
+  let c = can.getContext('2d');
+
+  let maxWidth = window.innerWidth;
+  let maxHeight = window.innerHeight;
+  let count = 100;
+  let arr = [];
+  //创建粒子放入到canvas中
+  for(let i = 0;i < count; i ++){
+    let x = Math.floor(Math.random() * maxWidth);
+    let y = Math.floor(Math.random() * maxHeight);
+    arr.push({x, y});
+  }
+  countWeizhi(arr,count);
+  function countWeizhi(arr,count){
+    for(let j = 0;j < count;j ++){
+      c.beginPath();
+      c.fillStyle = "red";
+      c.arc(arr[j].x,arr[j].y,4,0,180 * Math.PI);
+      c.fill();
+      c.closePath();
+    }
+  }
+</script>
+</body>
+</html>

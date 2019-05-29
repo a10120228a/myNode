@@ -2,10 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f68347-b806-4959-81df-69f590a5f2b7" name="Default" comment="陆续学习node之旅">
-      <change afterPath="$PROJECT_DIR$/test/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assert/an.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assert/liang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/WEBGL练习/day1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/demo/canvas粒子运动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/单例设计模式/one.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/答疑解惑/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/算法练习/算法.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/算法练习/面试题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/one.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typescript/two.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/doc/API.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/float.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/Changes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/License" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/Pool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/PoolCluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/PoolNamespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/PoolSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/ResultSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/field_flags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EofPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OkPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mysql/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/lib/SqlString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sqlstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/lib/string_decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,109 +168,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="764988032">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="39" />
-          <entry key="project.open.time.0" value="17" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.2" value="10" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.opened" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="15" />
-          <entry key="jpeg" value="5" />
-          <entry key="js" value="36" />
-          <entry key="json" value="11" />
-          <entry key="md" value="1" />
-          <entry key="png" value="3" />
-          <entry key="ts" value="1" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="15" />
-          <entry key="Image" value="8" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="36" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="1" />
-          <entry key="tsconfig" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="8816" />
-          <entry key="js" value="7408" />
-          <entry key="json" value="68" />
-          <entry key="md" value="60" />
-          <entry key="txt" value="107" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="8816" />
-          <entry key="JSON" value="34" />
-          <entry key="JavaScript" value="7408" />
-          <entry key="Markdown" value="60" />
-          <entry key="PLAIN_TEXT" value="107" />
-          <entry key="tsconfig" value="34" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
+  <component name="FavoritesManager">
+    <favorites_list name="myNode" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/二分查找.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/递归运算.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Json File" />
+        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style</find>
       <find>token</find>
       <find>status</find>
       <find>提交</find>
@@ -130,10 +199,31 @@
       <find>'</find>
       <find>ps[i].style.background = &quot;#&quot; + Math.floor(Math.random() * 0xffffff).toString(16);</find>
       <find>\\&quot;</find>
+      <find>&quot;</find>
+      <find>arr</find>
+      <find>dirPath</find>
+      <find>r</find>
+      <find>current</find>
+      <find>list</find>
+      <find>store</find>
+      <find>container</find>
+      <find>$</find>
+      <find>handlerGet</find>
+      <find>bind</find>
+      <find>var</find>
+      <find>controltap</find>
+      <find>first</find>
+      <find>abs</find>
+      <find>Math</find>
+      <find>encodeURIComponent</find>
+      <find>NaN</find>
+      <find>isNaN</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
       <replace>\&quot;</replace>
+      <replace>let</replace>
+      <replace>arr</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -147,86 +237,78 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/七牛/js/uploadWithOthers.js" />
-        <option value="$PROJECT_DIR$/七牛/js/ui.js" />
-        <option value="$PROJECT_DIR$/七牛/js/common.js" />
-        <option value="$PROJECT_DIR$/七牛/js/widget.js" />
-        <option value="$PROJECT_DIR$/七牛/style/index.css" />
-        <option value="$PROJECT_DIR$/七牛/js/file.js" />
-        <option value="$PROJECT_DIR$/七牛/index.html" />
-        <option value="$PROJECT_DIR$/.idea/assert.js" />
-        <option value="$PROJECT_DIR$/assert.js" />
-        <option value="$PROJECT_DIR$/node.js" />
-        <option value="$PROJECT_DIR$/buffer.js" />
-        <option value="$PROJECT_DIR$/cluster.js" />
-        <option value="$PROJECT_DIR$/console.js" />
-        <option value="$PROJECT_DIR$/test.txt" />
-        <option value="$PROJECT_DIR$/path.js" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/hh.html" />
-        <option value="$PROJECT_DIR$/async测试.html" />
-        <option value="$PROJECT_DIR$/dgram.js" />
-        <option value="$PROJECT_DIR$/6.crypto.js" />
-        <option value="$PROJECT_DIR$/学情报告圆盘.html" />
-        <option value="$PROJECT_DIR$/2、buffer.js" />
-        <option value="$PROJECT_DIR$/demo/grab.js" />
-        <option value="$PROJECT_DIR$/3、child_process.js" />
-        <option value="$PROJECT_DIR$/1、assert.js" />
-        <option value="$PROJECT_DIR$/4、cluster.js" />
-        <option value="$USER_HOME$/Desktop/BasicProfile的副本.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/JS处理大数据.js" />
-        <option value="$PROJECT_DIR$/aaa.html" />
-        <option value="$PROJECT_DIR$/ss.html" />
-        <option value="$PROJECT_DIR$/test/demo.json" />
-        <option value="$PROJECT_DIR$/test/tsconfig.json" />
-        <option value="$PROJECT_DIR$/test/me.js" />
-        <option value="$PROJECT_DIR$/test/index.md" />
-        <option value="$PROJECT_DIR$/test/index.txt" />
-        <option value="$PROJECT_DIR$/test/index.js" />
-        <option value="$PROJECT_DIR$/test/递归运算.js" />
-        <option value="$PROJECT_DIR$/test/new.js" />
-        <option value="$PROJECT_DIR$/test/思维导图.html" />
-        <option value="$PROJECT_DIR$/html/test.html" />
-        <option value="$PROJECT_DIR$/test/blue.html" />
+        <option value="$PROJECT_DIR$/test/test/aaaaa/asdfa.js" />
+        <option value="$PROJECT_DIR$/test/test/aaaaa/asdfasdf.html" />
+        <option value="$PROJECT_DIR$/test/demo/new.js" />
+        <option value="$PROJECT_DIR$/test/图片去底色.html" />
+        <option value="$PROJECT_DIR$/test/计算.js" />
+        <option value="$PROJECT_DIR$/test/export.js" />
+        <option value="$PROJECT_DIR$/test/daoyan.json" />
+        <option value="$PROJECT_DIR$/test/daoyan.txt" />
+        <option value="$PROJECT_DIR$/test/typescript/index.ts" />
+        <option value="$PROJECT_DIR$/郑建伟/text/text.js" />
+        <option value="$PROJECT_DIR$/郑建伟/index.html" />
+        <option value="$PROJECT_DIR$/郑建伟/images/nkwenben.js" />
+        <option value="$PROJECT_DIR$/test/弹窗.html" />
         <option value="$PROJECT_DIR$/test/index.html" />
-        <option value="$PROJECT_DIR$/test/aaa.html" />
-        <option value="$PROJECT_DIR$/test/muti.html" />
-        <option value="$PROJECT_DIR$/test/img.html" />
-        <option value="$PROJECT_DIR$/a.json" />
-        <option value="$PROJECT_DIR$/test/twoTree.js" />
-        <option value="$PROJECT_DIR$/test/二分查找.js" />
-        <option value="$PROJECT_DIR$/test/server.js" />
-        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/test/LeetCode.html" />
+        <option value="$PROJECT_DIR$/test/LeetCode.js" />
+        <option value="$PROJECT_DIR$/test/demo/js实现链表.js" />
+        <option value="$PROJECT_DIR$/test/算法/栈.js" />
+        <option value="$PROJECT_DIR$/test/算法/队列.js" />
+        <option value="$PROJECT_DIR$/test/算法/实现二叉树的翻转.html" />
+        <option value="$PROJECT_DIR$/test/算法/实现二叉树的翻转.js" />
+        <option value="$PROJECT_DIR$/test/算法/二叉树.js" />
+        <option value="$PROJECT_DIR$/test/数据结构/二叉树.js" />
+        <option value="$PROJECT_DIR$/test/canvas绚丽计时器/json/number.json" />
+        <option value="$PROJECT_DIR$/test/canvas绚丽计时器/index.html" />
+        <option value="$PROJECT_DIR$/test/canvas绚丽计时器/js/index.js" />
+        <option value="$PROJECT_DIR$/test/canvas绚丽计时器/json/number.js" />
+        <option value="$PROJECT_DIR$/test/算法练习/test.js" />
+        <option value="$PROJECT_DIR$/test/demo/canvas粒子运动.html" />
+        <option value="$PROJECT_DIR$/test/demo/李扬代码.html" />
+        <option value="$PROJECT_DIR$/test/async测试/index.html" />
+        <option value="$PROJECT_DIR$/test/单元测试文档/index.html" />
+        <option value="$PROJECT_DIR$/test/答疑解惑/test.js" />
+        <option value="$PROJECT_DIR$/test/答疑解惑/js/d3.v4.min.js" />
+        <option value="$PROJECT_DIR$/test/答疑解惑/js/dagre-d3.min.js" />
+        <option value="$PROJECT_DIR$/test/index.js" />
+        <option value="$PROJECT_DIR$/test/api.js" />
+        <option value="$PROJECT_DIR$/test/递归/index.html" />
+        <option value="$PROJECT_DIR$/test/递归/index.js" />
+        <option value="$PROJECT_DIR$/test/单例设计模式/one.js" />
+        <option value="$PROJECT_DIR$/test/答疑解惑/index.js" />
+        <option value="$PROJECT_DIR$/test/答疑解惑/index.html" />
+        <option value="$PROJECT_DIR$/test/WEBGL练习/day1.html" />
+        <option value="$PROJECT_DIR$/test/数据结构/栈.js" />
+        <option value="$PROJECT_DIR$/test/算法练习/面试题.html" />
+        <option value="$PROJECT_DIR$/test/算法练习/算法.js" />
+        <option value="$PROJECT_DIR$/typescript/one.ts" />
+        <option value="$PROJECT_DIR$/typescript/two.d.ts" />
+        <option value="$PROJECT_DIR$/test/答疑解惑/test.html" />
+        <option value="$PROJECT_DIR$/GraphQl/index.js" />
+        <option value="$PROJECT_DIR$/server/index.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node/package.json" />
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-826" />
+    <option name="x" value="854" />
     <option name="y" value="23" />
-    <option name="width" value="773" />
+    <option name="width" value="826" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -246,6 +328,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,30 +337,43 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/bankermacpro/chrome/myNode/学情报告圆盘.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164356790" />
     <property name="javascript.karma.karma_node_package_dir" value="" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.10.0" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.YAML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/img" />
+      <recent name="$PROJECT_DIR$/test/test/aaaaa" />
+      <recent name="$PROJECT_DIR$/test/test/asfdasf" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assert" />
+      <recent name="$PROJECT_DIR$/test/递归" />
+      <recent name="$PROJECT_DIR$/test/答疑解惑" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/test/算法" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,12 +401,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+    <configuration name="队列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/数据结构/队列.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="算法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/算法练习/算法.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="翻转二叉树.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/数据结构/翻转二叉树.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="二叉树.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/数据结构/二叉树.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
@@ -407,6 +515,96 @@
       <workItem from="1540176515125" duration="5100000" />
       <workItem from="1540203363518" duration="1747000" />
       <workItem from="1540369979861" duration="3104000" />
+      <workItem from="1540519593778" duration="254000" />
+      <workItem from="1540546504042" duration="82000" />
+      <workItem from="1540705491244" duration="753000" />
+      <workItem from="1540794115892" duration="71000" />
+      <workItem from="1541164031505" duration="798000" />
+      <workItem from="1541207611554" duration="42000" />
+      <workItem from="1542029656911" duration="483000" />
+      <workItem from="1542030267916" duration="854000" />
+      <workItem from="1542377193227" duration="658000" />
+      <workItem from="1543285030314" duration="11000" />
+      <workItem from="1543746111506" duration="690000" />
+      <workItem from="1543747395793" duration="30000" />
+      <workItem from="1543750510169" duration="46000" />
+      <workItem from="1543801675224" duration="343000" />
+      <workItem from="1543813441528" duration="1000" />
+      <workItem from="1544149455501" duration="718000" />
+      <workItem from="1544327043136" duration="29000" />
+      <workItem from="1544327184248" duration="2583000" />
+      <workItem from="1544406412633" duration="749000" />
+      <workItem from="1544407513883" duration="11000" />
+      <workItem from="1544420868925" duration="683000" />
+      <workItem from="1544423125690" duration="4822000" />
+      <workItem from="1544530257299" duration="4033000" />
+      <workItem from="1544584766828" duration="1900000" />
+      <workItem from="1544598336828" duration="221000" />
+      <workItem from="1544665397856" duration="3848000" />
+      <workItem from="1544683616045" duration="5911000" />
+      <workItem from="1544767489651" duration="1325000" />
+      <workItem from="1545112650552" duration="382000" />
+      <workItem from="1545205633847" duration="404000" />
+      <workItem from="1545206909796" duration="2335000" />
+      <workItem from="1545803341018" duration="1389000" />
+      <workItem from="1548412495879" duration="1238000" />
+      <workItem from="1548414681789" duration="904000" />
+      <workItem from="1548416408743" duration="254000" />
+      <workItem from="1548468286795" duration="325000" />
+      <workItem from="1548562136334" duration="1153000" />
+      <workItem from="1548762291687" duration="405000" />
+      <workItem from="1549011560558" duration="2884000" />
+      <workItem from="1549023711304" duration="3191000" />
+      <workItem from="1549030135233" duration="11477000" />
+      <workItem from="1549103277262" duration="3175000" />
+      <workItem from="1549161845907" duration="2560000" />
+      <workItem from="1549178387881" duration="3840000" />
+      <workItem from="1549200671732" duration="9777000" />
+      <workItem from="1549368185838" duration="1790000" />
+      <workItem from="1550062700455" duration="1526000" />
+      <workItem from="1550382116211" duration="1723000" />
+      <workItem from="1550389994647" duration="1057000" />
+      <workItem from="1550472517564" duration="868000" />
+      <workItem from="1550482673148" duration="410000" />
+      <workItem from="1551507314736" duration="1225000" />
+      <workItem from="1551510577325" duration="1976000" />
+      <workItem from="1551771359052" duration="4993000" />
+      <workItem from="1552006120200" duration="1189000" />
+      <workItem from="1552394788104" duration="549000" />
+      <workItem from="1552983146033" duration="1505000" />
+      <workItem from="1553245881994" duration="683000" />
+      <workItem from="1553481150300" duration="96000" />
+      <workItem from="1553505991509" duration="329000" />
+      <workItem from="1553585597696" duration="287000" />
+      <workItem from="1553927015090" duration="441000" />
+      <workItem from="1554259189763" duration="720000" />
+      <workItem from="1555509631620" duration="4372000" />
+      <workItem from="1555548655771" duration="733000" />
+      <workItem from="1555594269159" duration="1157000" />
+      <workItem from="1555744161820" duration="1939000" />
+      <workItem from="1556175617936" duration="1571000" />
+      <workItem from="1556179633461" duration="5835000" />
+      <workItem from="1556267457968" duration="3388000" />
+      <workItem from="1556271439364" duration="492000" />
+      <workItem from="1556415018757" duration="281000" />
+      <workItem from="1557124606154" duration="1337000" />
+      <workItem from="1557126347933" duration="2713000" />
+      <workItem from="1557734159237" duration="1556000" />
+      <workItem from="1557806344490" duration="1753000" />
+      <workItem from="1557901179652" duration="403000" />
+      <workItem from="1557931354595" duration="558000" />
+      <workItem from="1558314510122" duration="13855000" />
+      <workItem from="1558410211690" duration="1228000" />
+      <workItem from="1558420332655" duration="1195000" />
+      <workItem from="1558492537734" duration="208000" />
+      <workItem from="1558506347326" duration="3086000" />
+      <workItem from="1558677571235" duration="3172000" />
+      <workItem from="1558746266629" duration="3054000" />
+      <workItem from="1558946803017" duration="1771000" />
+      <workItem from="1559031858576" duration="1575000" />
+      <workItem from="1559091665905" duration="74000" />
+      <workItem from="1559109698280" duration="14000" />
+      <workItem from="1559111254187" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="陆续学习node之旅">
       <created>1529736469801</created>
@@ -433,164 +631,326 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126561000" />
+    <option name="totallyTimeSpent" value="282906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-826" y="23" width="773" height="1027" extended-state="0" />
+    <frame x="854" y="23" width="826" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32797858" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.2875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2496977" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.1680774" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286026" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32769555" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.2551724" weight="0.36790392" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49761903" weight="0.29257643" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50238097" side_tool="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.74482757" side_tool="true" weight="0.55458516" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49761903" weight="0.23689957" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" weight="0.32969433" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22029988" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.14147522" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2496977" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.1680774" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32769555" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.2551724" visible="true" weight="0.20742358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50238097" side_tool="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.74482757" side_tool="true" weight="0.55458516" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49761903" weight="0.21176471" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49761903" weight="0.44759825" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32941177" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="14" weight="0.32969433" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/typescript/one.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="陆续学习node之旅" />
     <option name="LAST_COMMIT_MESSAGE" value="陆续学习node之旅" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/七牛/index.html" />
-    <entry file="file://$PROJECT_DIR$/.idea/assert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" lean-forward="true" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js" />
-    <entry file="file://$PROJECT_DIR$/node.js" />
-    <entry file="file://$PROJECT_DIR$/个人形象激励.md" />
-    <entry file="file://$PROJECT_DIR$/test.txt" />
-    <entry file="file://$PROJECT_DIR$/yarn.lock" />
-    <entry file="file://$PROJECT_DIR$/demo/test.html" />
-    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688852938817357/Cache/File/2018-06/1529486313766810475" />
-    <entry file="file://$PROJECT_DIR$/hh.html" />
-    <entry file="file://$PROJECT_DIR$/async测试.html" />
-    <entry file="file://$PROJECT_DIR$/path.js" />
-    <entry file="file://$PROJECT_DIR$/学情报告圆盘.html" />
-    <entry file="file://$USER_HOME$/Desktop/BasicProfile的副本.js" />
-    <entry file="file://$PROJECT_DIR$/../package.json" />
-    <entry file="file://$PROJECT_DIR$/4、cluster.js" />
-    <entry file="file://$PROJECT_DIR$/1、assert.js" />
-    <entry file="file://$PROJECT_DIR$/npm-shrinkwrap.json" />
-    <entry file="file://$PROJECT_DIR$/JS处理大数据.js" />
-    <entry file="file://$PROJECT_DIR$/aaa.html" />
-    <entry file="file://$PROJECT_DIR$/canvas水球.html" />
-    <entry file="file://$PROJECT_DIR$/2、buffer.js" />
-    <entry file="file://$PROJECT_DIR$/3、child_process.js" />
-    <entry file="file://$PROJECT_DIR$/5、console.js" />
-    <entry file="file://$PROJECT_DIR$/6、crypto.js" />
-    <entry file="file://$PROJECT_DIR$/7、dgram.js" />
-    <entry file="file://$PROJECT_DIR$/demo/grab.js" />
-    <entry file="file://$PROJECT_DIR$/test/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/test/demo.json" />
-    <entry file="file://$PROJECT_DIR$/test/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/思维导图.html" />
-    <entry file="file://$PROJECT_DIR$/html/test.html" />
-    <entry file="file://$PROJECT_DIR$/test/blue.jpeg" />
-    <entry file="file://$PROJECT_DIR$/test/blue.html" />
-    <entry file="file://$PROJECT_DIR$/test/白底寸照.jpeg" />
-    <entry file="file://$PROJECT_DIR$/test/index.html" />
-    <entry file="file://$PROJECT_DIR$/test/aaa.html" />
-    <entry file="file://$PROJECT_DIR$/test/muti.html" />
-    <entry file="file://$PROJECT_DIR$/test/img.html" />
-    <entry file="file://$PROJECT_DIR$/test/new.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="48" column="15" lean-forward="true" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/new.jpeg" />
-    <entry file="file://$PROJECT_DIR$/a.json" />
-    <entry file="file://$PROJECT_DIR$/test/二分查找.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/twoTree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/递归运算.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/server.js">
+    <entry file="file://$PROJECT_DIR$/test/typescript/index.js" />
+    <entry file="file://$PROJECT_DIR$/test/typescript/index.ts" />
+    <entry file="file://$PROJECT_DIR$/郑建伟/text/text.js" />
+    <entry file="file://$PROJECT_DIR$/郑建伟/index.html" />
+    <entry file="file://$PROJECT_DIR$/郑建伟/images/nkwenben.js" />
+    <entry file="file://$PROJECT_DIR$/test/弹窗.html" />
+    <entry file="file://$PROJECT_DIR$/node/JS处理大数据.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/small.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/zhile.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.proxy.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="3256" column="4" selection-start-line="3256" selection-start-column="4" selection-end-line="3256" selection-end-column="4" />
+        <state relative-caret-position="558">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.html">
+    <entry file="file://$PROJECT_DIR$/test/demo/star.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/递归删除文件.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/iphone悬浮球效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1318">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/图片去底色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/img/xiaoer.png" />
+    <entry file="file://$PROJECT_DIR$/test/demo/js实现链表.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="61" column="28" lean-forward="true" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/数据结构/队列.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/js实现二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="52" column="14" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/数据结构/翻转二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/canvas绚丽计时器/json/number.js" />
+    <entry file="file://$PROJECT_DIR$/test/canvas绚丽计时器/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/canvas绚丽计时器/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/test/数据结构/二叉树.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/算法练习/test.js" />
+    <entry file="file://$USER_HOME$/Desktop/long_text.js" />
+    <entry file="file://$PROJECT_DIR$/test/demo/李扬代码.html" />
+    <entry file="file://$PROJECT_DIR$/typescript/one.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/canvas粒子运动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/async测试/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/单元测试文档/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/答疑解惑/test.js" />
+    <entry file="file://$PROJECT_DIR$/test/答疑解惑/js/d3.v4.min.js" />
+    <entry file="file://$PROJECT_DIR$/test/答疑解惑/js/dagre-d3.min.js" />
+    <entry file="file://$PROJECT_DIR$/test/递归/index.js" />
+    <entry file="file://$PROJECT_DIR$/test/递归/api.js" />
+    <entry file="file://$PROJECT_DIR$/test/递归/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/答疑解惑/index.js" />
+    <entry file="file://$PROJECT_DIR$/test/单例设计模式/one.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/答疑解惑/index.html" />
+    <entry file="file://$PROJECT_DIR$/test/WEBGL练习/day1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/010b4053a7b7c3fa05102351a240ccb4/Message/MessageTemp/9dd35fa39173c4aaf897c5fd49dc23d3/File/简历模板.md" />
+    <entry file="file://$PROJECT_DIR$/test/数据结构/栈.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/数据结构/链表.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/demo/快速排序.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/算法练习/算法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/算法练习/面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="n#script#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.10.0/node-typings/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="1069" column="32" selection-start-line="1069" selection-start-column="32" selection-end-line="1069" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#3387#3551#0" />
+            <element signature="e#3636#3775#0" />
+            <element signature="e#3809#3849#0" />
+            <element signature="e#3868#4829#0" />
+            <element signature="e#4859#9534#0" />
+            <element signature="e#9704#11088#0" />
+            <element signature="e#11120#11341#0" />
+            <element signature="e#11410#11481#0" />
+            <element signature="e#11500#17001#0" />
+            <element signature="e#17031#17169#0" />
+            <element signature="e#17171#17295#0" />
+            <element signature="e#17356#17447#0" />
+            <element signature="e#17478#17573#0" />
+            <element signature="e#17636#18762#0" />
+            <element signature="e#18792#19834#0" />
+            <element signature="e#20052#20096#0" />
+            <element signature="e#20098#20265#0" />
+            <element signature="e#20287#20290#0" />
+            <element signature="e#24387#32232#0" />
+            <element signature="e#32260#33754#0" />
+            <element signature="e#33843#33886#0" />
+            <element signature="e#33936#33977#0" />
+            <element signature="e#33996#35315#0" />
+            <element signature="e#35345#35759#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/one.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typescript/two.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/答疑解惑/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
