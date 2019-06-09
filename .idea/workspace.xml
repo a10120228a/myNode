@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f68347-b806-4959-81df-69f590a5f2b7" name="Default" comment="陆续学习node之旅">
+      <change afterPath="$PROJECT_DIR$/test/WEBGL练习/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/WEBGL练习/js/three.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/炫彩倒计时/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/炫彩倒计时/countDown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/炫彩倒计时/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/WEBGL练习/day1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,16 +23,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="myNode" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/index.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/炫彩倒计时/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="126">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/炫彩倒计时/countDown.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/炫彩倒计时/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -37,8 +59,8 @@
       <list>
         <option value="tsconfig.json" />
         <option value="CSS File" />
-        <option value="Json File" />
         <option value="TypeScript File" />
+        <option value="Json File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -88,20 +110,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="second" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/test/aaaaa/asdfa.js" />
-        <option value="$PROJECT_DIR$/test/test/aaaaa/asdfasdf.html" />
-        <option value="$PROJECT_DIR$/test/demo/new.js" />
-        <option value="$PROJECT_DIR$/test/图片去底色.html" />
-        <option value="$PROJECT_DIR$/test/计算.js" />
-        <option value="$PROJECT_DIR$/test/export.js" />
-        <option value="$PROJECT_DIR$/test/daoyan.json" />
         <option value="$PROJECT_DIR$/test/daoyan.txt" />
         <option value="$PROJECT_DIR$/test/typescript/index.ts" />
         <option value="$PROJECT_DIR$/郑建伟/text/text.js" />
@@ -137,7 +152,6 @@
         <option value="$PROJECT_DIR$/test/单例设计模式/one.js" />
         <option value="$PROJECT_DIR$/test/答疑解惑/index.js" />
         <option value="$PROJECT_DIR$/test/答疑解惑/index.html" />
-        <option value="$PROJECT_DIR$/test/WEBGL练习/day1.html" />
         <option value="$PROJECT_DIR$/test/数据结构/栈.js" />
         <option value="$PROJECT_DIR$/test/算法练习/面试题.html" />
         <option value="$PROJECT_DIR$/test/算法练习/算法.js" />
@@ -146,6 +160,14 @@
         <option value="$PROJECT_DIR$/test/答疑解惑/test.html" />
         <option value="$PROJECT_DIR$/GraphQl/index.js" />
         <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/test/WEBGL练习/day1.html" />
+        <option value="$PROJECT_DIR$/test/WEBGL练习/three.js" />
+        <option value="$PROJECT_DIR$/test/WEBGL练习/js/three.js" />
+        <option value="$PROJECT_DIR$/test/WEBGL练习/index.html" />
+        <option value="$PROJECT_DIR$/炫彩倒计时/config.json" />
+        <option value="$PROJECT_DIR$/炫彩倒计时/config.js" />
+        <option value="$PROJECT_DIR$/炫彩倒计时/countDown.html" />
+        <option value="$PROJECT_DIR$/炫彩倒计时/index.js" />
       </list>
     </option>
   </component>
@@ -164,9 +186,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="854" />
+    <option name="x" value="158" />
     <option name="y" value="23" />
-    <option name="width" value="826" />
+    <option name="width" value="1522" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -174,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,13 +207,12 @@
             <path>
               <item name="myNode" type="b2602c69:ProjectViewProjectNode" />
               <item name="myNode" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="炫彩倒计时" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -224,19 +246,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/WEBGL练习/js" />
+      <recent name="$PROJECT_DIR$/assert" />
+      <recent name="$PROJECT_DIR$/test/递归" />
+      <recent name="$PROJECT_DIR$/test/答疑解惑" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/img" />
       <recent name="$PROJECT_DIR$/test/test/aaaaa" />
       <recent name="$PROJECT_DIR$/test/test/asfdasf" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assert" />
-      <recent name="$PROJECT_DIR$/test/递归" />
-      <recent name="$PROJECT_DIR$/test/答疑解惑" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/test/算法" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,6 +312,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.队列.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -469,6 +496,9 @@
       <workItem from="1559109698280" duration="14000" />
       <workItem from="1559111254187" duration="16000" />
       <workItem from="1559121001073" duration="153000" />
+      <workItem from="1559375563422" duration="784000" />
+      <workItem from="1559785768561" duration="19000" />
+      <workItem from="1560055822053" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="陆续学习node之旅">
       <created>1529736469801</created>
@@ -495,13 +525,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283059000" />
+    <option name="totallyTimeSpent" value="285913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="23" width="826" height="1027" extended-state="0" />
+    <frame x="158" y="23" width="1522" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.2875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.18315507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2496977" />
       <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.1680774" />
       <window_info id="Designer" order="3" />
@@ -515,9 +545,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.74482757" side_tool="true" weight="0.55458516" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.600907" side_tool="true" weight="0.44213974" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49761903" visible="true" weight="0.22707424" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.39909297" weight="0.44213974" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -580,10 +610,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="陆续学习node之旅" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/typescript/index.ts" />
-    <entry file="file://$PROJECT_DIR$/郑建伟/text/text.js" />
-    <entry file="file://$PROJECT_DIR$/郑建伟/index.html" />
-    <entry file="file://$PROJECT_DIR$/郑建伟/images/nkwenben.js" />
     <entry file="file://$PROJECT_DIR$/test/弹窗.html" />
     <entry file="file://$PROJECT_DIR$/node/JS处理大数据.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,13 +729,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/答疑解惑/index.html" />
-    <entry file="file://$PROJECT_DIR$/test/WEBGL练习/day1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/010b4053a7b7c3fa05102351a240ccb4/Message/MessageTemp/9dd35fa39173c4aaf897c5fd49dc23d3/File/简历模板.md" />
     <entry file="file://$PROJECT_DIR$/test/数据结构/栈.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -811,17 +830,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="144">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/WEBGL练习/js/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="49133" column="26" lean-forward="true" selection-start-line="49133" selection-start-column="26" selection-end-line="49133" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/WEBGL练习/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/炫彩倒计时/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/炫彩倒计时/countDown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/炫彩倒计时/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
