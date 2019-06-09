@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f68347-b806-4959-81df-69f590a5f2b7" name="Default" comment="陆续学习node之旅">
-      <change afterPath="$PROJECT_DIR$/test/WEBGL练习/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/WEBGL练习/js/three.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/炫彩倒计时/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/炫彩倒计时/countDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/炫彩倒计时/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/效果/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/WEBGL练习/day1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,29 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/炫彩倒计时/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/炫彩倒计时/countDown.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/炫彩倒计时/index.js">
+        <entry file="file://$PROJECT_DIR$/效果/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="749">
+              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -61,8 +34,8 @@
         <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="Json File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -117,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/daoyan.txt" />
         <option value="$PROJECT_DIR$/test/typescript/index.ts" />
         <option value="$PROJECT_DIR$/郑建伟/text/text.js" />
         <option value="$PROJECT_DIR$/郑建伟/index.html" />
@@ -168,6 +140,7 @@
         <option value="$PROJECT_DIR$/炫彩倒计时/config.js" />
         <option value="$PROJECT_DIR$/炫彩倒计时/countDown.html" />
         <option value="$PROJECT_DIR$/炫彩倒计时/index.js" />
+        <option value="$PROJECT_DIR$/效果/index.html" />
       </list>
     </option>
   </component>
@@ -186,9 +159,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
+    <option name="x" value="1011" />
     <option name="y" value="23" />
-    <option name="width" value="1522" />
+    <option name="width" value="669" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -203,11 +176,6 @@
             <path>
               <item name="myNode" type="b2602c69:ProjectViewProjectNode" />
               <item name="myNode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myNode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myNode" type="462c0819:PsiDirectoryNode" />
-              <item name="炫彩倒计时" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -498,7 +466,9 @@
       <workItem from="1559121001073" duration="153000" />
       <workItem from="1559375563422" duration="784000" />
       <workItem from="1559785768561" duration="19000" />
-      <workItem from="1560055822053" duration="1079000" />
+      <workItem from="1560055822053" duration="1148000" />
+      <workItem from="1560060591721" duration="6000" />
+      <workItem from="1560060619216" duration="1702000" />
     </task>
     <task id="LOCAL-00001" summary="陆续学习node之旅">
       <created>1529736469801</created>
@@ -525,13 +495,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285913000" />
+    <option name="totallyTimeSpent" value="287690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="23" width="1522" height="1027" extended-state="0" />
+    <frame x="1011" y="23" width="669" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.18315507" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" weight="0.18315507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2496977" />
       <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.1680774" />
       <window_info id="Designer" order="3" />
@@ -610,7 +580,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="陆续学习node之旅" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/弹窗.html" />
     <entry file="file://$PROJECT_DIR$/node/JS处理大数据.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -858,24 +827,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/炫彩倒计时/config.js">
+    <entry file="file://$PROJECT_DIR$/炫彩倒计时/countDown.html" />
+    <entry file="file://$PROJECT_DIR$/炫彩倒计时/index.js" />
+    <entry file="file://$PROJECT_DIR$/炫彩倒计时/config.js" />
+    <entry file="file://$PROJECT_DIR$/效果/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/炫彩倒计时/countDown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/炫彩倒计时/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="749">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
     </entry>
