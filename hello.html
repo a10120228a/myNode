@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    *{
+      margin:0;
+      padding: 0;
+    }
+    html,body{
+      width:100%;
+      height:100%;
+      background:rgb(246,246,246);
+    }
+    #cont>div{
+      width:100%;
+      height:160px;
+      margin-bottom:30px;
+      color:rgb(48,49,52);
+      display:flex;
+    }
+    p{
+      background:white;
+    }
+    .first{
+      width:60%;
+      height:100%;
+      line-height: 160px;
+      text-align: left;
+      padding-left:40px;
+      font-size:38px;
+    }
+    .last{
+      width:40%;
+      height:100%;
+      line-height: 160px;
+      text-align: right;
+      padding-right:40px;
+      font-size:38px;
+    }
+    .bai{
+      width:100%;
+      height:200px;
+    }
+    .button{
+      width:100%;
+      height:200px;
+      position:fixed;
+      bottom:0;
+      left:0;
+      background:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .button>button{
+      width:90%;
+      height:80%;
+      background:rgb(91,151,242);
+      font-size: 56px;
+      color:white;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+  <body>
+    <div id="cont"></div>
+    <div class="bai"></div>
+    <div class="button">
+      <button>确认无误</button>
+    </div>
+  </body>
+</html>
+<script>
+  // 第二个月课时费 1288    第三个月 2508
+  // 91 151 242
+  let keyArr = [
+    '姓名',
+    '部门',
+    '职位',
+    '基本工资',
+    '岗位津贴',
+    '入/离职缺勤天数',
+    '事假天数',
+    '病假天数',
+    '养老个人汇缴',
+    '医疗个人汇缴',
+    '失业个人汇缴',
+    '公积个人汇缴',
+    '养老个人补缴',
+    '医疗个人补缴',
+    '失业个人补缴',
+    '公积金个人补缴',
+    '课时费',
+    '个税扣款',
+    '本月应发工资',
+  ]
+  let valueArr = [
+    '成丽丽',
+    '语文教研部',
+    '语文教研员',
+    '6000',
+    '4000',
+    '0.00',
+    '0.00',
+    '0.00',
+    '480.00',
+    '123.00',
+    '0.00',
+    '720.00',
+    '0.00',
+    '0.00',
+    '0.00',
+    '0.00',
+    '2508.00',
+    '---',
+    '===',
+  ]
+
+  let jiao = ~~valueArr[8] + ~~valueArr[9] + ~~valueArr[11]
+  let zong = ~~valueArr[3] + ~~valueArr[4] + ~~valueArr[16]
+  let shui = ((zong - jiao) - 5000 - 3000) / 10 + '0'
+
+  for(let i = 0;i < keyArr.length; i ++){
+    let oDiv = document.createElement('div');
+    let first = document.createElement('p');
+    first.className = 'first';
+    first.innerText = keyArr[i];
+    let last = document.createElement('p');
+    last.className = 'last'
+    if(valueArr[i] === '---'){
+      last.innerText = shui
+    }else if(valueArr[i] === '==='){
+      last.innerText = zong - jiao - shui + '0'
+    }else {
+      last.innerText = valueArr[i]
+    }
+    oDiv.appendChild(first)
+    oDiv.appendChild(last)
+    document.getElementById('cont').appendChild(oDiv);
+  }
+</script>
